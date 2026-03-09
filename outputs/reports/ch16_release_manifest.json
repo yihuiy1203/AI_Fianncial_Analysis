@@ -1,0 +1,68 @@
+{
+  "version": "v4.0.0",
+  "smoke": {
+    "stock_code": "000001",
+    "steps": [
+      {
+        "name": "load_data",
+        "status": "ok",
+        "latency_ms": 0,
+        "detail": "ok:dict"
+      },
+      {
+        "name": "build_indicators",
+        "status": "ok",
+        "latency_ms": 0,
+        "detail": "ok:dict"
+      },
+      {
+        "name": "run_analysis",
+        "status": "ok",
+        "latency_ms": 0,
+        "detail": "ok:dict"
+      },
+      {
+        "name": "build_report",
+        "status": "ok",
+        "latency_ms": 0,
+        "detail": "ok:dict"
+      }
+    ],
+    "n_ok": 4,
+    "n_total": 4,
+    "status": "success"
+  },
+  "test_summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pass_rate": 1.0,
+    "failed_cases": []
+  },
+  "checklist": [
+    {
+      "item": "tests_green",
+      "passed": true,
+      "detail": "failed=0"
+    },
+    {
+      "item": "docs_ready",
+      "passed": true,
+      "detail": "count=2"
+    },
+    {
+      "item": "artifacts_ready",
+      "passed": true,
+      "detail": "count=1"
+    },
+    {
+      "item": "version_valid",
+      "passed": true,
+      "detail": "v4.0.0"
+    }
+  ],
+  "release_gate": {
+    "ready": true,
+    "failed_items": []
+  }
+}

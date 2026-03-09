@@ -1,0 +1,15 @@
+# IFA 系统全局配置
+# 智能财务分析系统（Intelligent Financial Analysis System）v0.1
+
+project:
+  name: "ifa"
+  version: "0.1.0"
+
+paths:
+  data_raw: "data/raw"
+  data_cleaned: "data/cleaned"
+  data_features: "data/features"
+  data_embeddings: "data/embeddings"
+  outputs_reports: "outputs/reports"
+  outputs_figures: "outputs/figures"
+  outputs_models: "outputs/models"
